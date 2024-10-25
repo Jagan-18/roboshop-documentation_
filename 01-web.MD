@@ -29,7 +29,7 @@ Remove the default content that web server is serving. go to " /usr/share/nginx/
 rm -rf /usr/share/nginx/html/*
 ```
 
-Download the frontend content
+Download the frontend content same path " /usr/share/nginx/html " and once we download move to " /tmp/ "
 
 ```
 curl -o /tmp/web.zip https://roboshop-builds.s3.amazonaws.com/web.zip
